@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ruda, roboto } from "@/fonts/fonts";
+
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import ContactForm from "@/components/contactForm";
@@ -22,7 +24,7 @@ export default function RootLayout({
 }: Readonly<RootLayoutProps>) {
   return (
     <html lang={locale}>
-      <body>
+      <body className={`${ruda.className} ${roboto.className}`}>
         <Navbar />
         {children}
         <ContactForm />

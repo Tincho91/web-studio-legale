@@ -24,7 +24,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-900 text-white pt-8 pb-5">
+    <footer className="bg-[#090D1D] text-white pt-8 pb-5">
       <div className="mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           {/* Additional Information */}
