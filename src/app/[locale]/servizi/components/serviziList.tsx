@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useTranslations } from 'next-intl';
 import FadeInFrom from '@/components/animations/fadeInFrom';
-import { BsChatDots } from 'react-icons/bs'; // Ejemplo de icono de react-icons
+import { BsChatDots } from 'react-icons/bs';
 
 interface Service {
   title: string;
@@ -16,18 +16,18 @@ const services: Service[] = [
     bgImage: "/images/servicios1.jpg",
   },
   {
-    title: "services.corporateAcquisitions.title",
-    description: "services.corporateAcquisitions.description",
+    title: "services.civilLaw.title",
+    description: "services.civilLaw.description",
     bgImage: "/images/servicios2.jpg",
   },
   {
-    title: "services.compliance.title",
-    description: "services.compliance.description",
+    title: "services.consulting.title",
+    description: "services.consulting.description",
     bgImage: "/images/servicios3.jpg",
   },
   {
-    title: "services.civilLaw.title",
-    description: "services.civilLaw.description",
+    title: "services.extrajudicial.title",
+    description: "services.extrajudicial.description",
     bgImage: "/images/servicios4.jpg",
   },
 ];

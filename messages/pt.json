@@ -5,19 +5,16 @@
     "details": "DETALHES",
     "locale": "pt"
   },
-
   "Servizi": {
     "title": "Áreas de Atividade",
     "description": "O Escritório oferece serviços jurídicos em direito penal, aquisições empresariais e compliance. Com mais de vinte anos de experiência, apoia operações de due diligence para private equity e empresas públicas. Criou um departamento de direito civil para consultoria em questões societárias, contratuais, privacidade, marcas e reputação. Os profissionais colaboram com outros Escritórios de Advocacia e consultores a nível nacional e internacional.",
     "seeServices": "VER SERVIÇOS",
     "locale": "pt"
   },
-
   "Navbar": {
     "lawFirmName": "Escritório de Advocacia Agovino Monteforte",
     "trustedLawyers": "Advogados de Confiança"
   },
-
   "HamburgerMenu": {
     "home": "Início",
     "aboutUs": "Sobre Nós",
@@ -25,14 +22,12 @@
     "contact": "Contato",
     "locale": "pt"
   },
-
   "Hero": {
     "title": "Experiência e",
     "highlightedText": "profissionalismo",
     "subtitle": "Defendemos os seus direitos.",
     "discoverMore": "DESCUBRA MAIS"
   },
-
   "ContactForm": {
     "title": "Contatos",
     "inputPlaceholders": {
@@ -41,7 +36,6 @@
       "telefono": "Telefone",
       "tipoServizio": "Serviço solicitado"
     },
-
     "selectOptions": {
       "DirittoPenale": "Direito Penal",
       "AcquisizioniAziendali": "Aquisições Empresariais",
@@ -49,45 +43,40 @@
       "DirittoCivile": "Direito Civil",
       "Altro": "Outro"
     },
-
     "buttonText": "ENVIAR",
-
     "errors": {
       "nomeCompleto": "Nome completo obrigatório.",
       "indirizzoEmail": "Endereço de email obrigatório.",
       "telefono": "Telefone obrigatório."
     }
   },
-
   "ServiziPage": {
     "heading": "Você precisa de",
     "highlight": "assistência",
     "headingSuffix": " jurídica?",
     "description": "Com mais de vinte anos de experiência, nossa equipe oferece uma ampla gama de serviços jurídicos em direito penal, aquisições corporativas, compliance e direito civil."
   },
-
   "ServiziList": {
-    "requestInfo": "SOLICITAR INFORMAÇÕES",
+    "requestInfo": "SOLICITAR INFORMAÇÃO",
     "services": {
       "criminalLaw": {
         "title": "Direito Penal",
-        "description": "Serviços jurídicos em direito penal, suporte em casos complexos."
-      },
-      "corporateAcquisitions": {
-        "title": "Aquisições Corporativas",
-        "description": "Consultoria para aquisições e reestruturações corporativas."
-      },
-      "compliance": {
-        "title": "Compliance",
-        "description": "Suporte para conformidade de acordo com o Decreto Legislativo 231/2001."
+        "description": "Serviços jurídicos em direito penal, apoio em casos complexos."
       },
       "civilLaw": {
         "title": "Direito Civil",
-        "description": "Consultas sobre questões corporativas, contractuais, privacidade, marcas e reputação."
+        "description": "Consultas sobre questões corporativas, contratuais, privacidade, marcas e reputação."
+      },
+      "consulting": {
+        "title": "Consultoria",
+        "description": "Serviços de consultoria para estratégia empresarial, assessoria jurídica e gestão de riscos."
+      },
+      "extrajudicial": {
+        "title": "Extrajudicial",
+        "description": "Serviços extrajudiciais, incluindo mediação, arbitragem e negociação."
       }
     }
   },
-
   "Nosotros": {
     "teamTitle": "Nosso Time",
     "teamDescription": "Somos compostos por advogados experientes e dedicados, prontos para oferecer soluções legais eficazes e personalizadas para cada cliente.",
@@ -95,7 +84,6 @@
     "teamMemberTitle": "Maura Monteforte",
     "teamMemberDescription": "Uma querida amiga da casa se juntou à nossa equipe. Ela segue nossos princípios fundamentais: Comunicação, Disponibilidade, Competência. Requisitos essenciais para fornecer assistência jurídica segura e eficaz."
   },
-
   "Contatti": {
     "mainHeading": "Precisa de",
     "legalAssistance": "assistência jurídica",

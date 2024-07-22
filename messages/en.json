@@ -5,19 +5,16 @@
     "details": "DETAILS",
     "locale": "en"
   },
-
   "Servizi": {
     "title": "Areas of Activity",
     "description": "The Firm offers legal services in criminal law, corporate acquisitions, and compliance. With over twenty years of experience, it supports due diligence operations for private equity and public companies. It has created a civil law department for advice on corporate, contractual, privacy, trademark, and reputation issues. The professionals collaborate with other Law Firms and consultants at national and international levels.",
     "seeServices": "SEE SERVICES",
     "locale": "en"
-    },
-
+  },
   "Navbar": {
     "lawFirmName": "Agovino Monteforte - Law Firm",
     "trustedLawyers": "Trusted Lawyers"
   },
-  
   "HamburgerMenu": {
     "home": "Home",
     "aboutUs": "About Us",
@@ -25,14 +22,12 @@
     "contact": "Contact",
     "locale": "en"
   },
-
   "Hero": {
-  "title": "Experience and",
-  "highlightedText": "professionalism",
-  "subtitle": "We defend your rights.",
-  "discoverMore": "DISCOVER MORE"
+    "title": "Experience and",
+    "highlightedText": "professionalism",
+    "subtitle": "We defend your rights.",
+    "discoverMore": "DISCOVER MORE"
   },
-
   "ContactForm": {
     "title": "Contact Us",
     "inputPlaceholders": {
@@ -41,7 +36,6 @@
       "telefono": "Phone Number",
       "tipoServizio": "Select a Service"
     },
-
     "selectOptions": {
       "DirittoPenale": "Criminal Law",
       "AcquisizioniAziendali": "Business Acquisitions",
@@ -49,17 +43,14 @@
       "DirittoCivile": "Civil Law",
       "Altro": "Other"
     },
-
     "buttonText": "SEND"
   },
-
   "ServiziPage": {
     "heading": "Do you need legal",
     "highlight": "assistance",
     "headingSuffix": "",
     "description": "With over twenty years of experience, our team offers a wide range of legal services in criminal law, corporate acquisitions, compliance, and civil law."
   },
-
   "ServiziList": {
     "requestInfo": "REQUEST INFORMATION",
     "services": {
@@ -67,21 +58,20 @@
         "title": "Criminal Law",
         "description": "Legal services in criminal law, support in complex cases."
       },
-      "corporateAcquisitions": {
-        "title": "Corporate Acquisitions",
-        "description": "Consulting for acquisitions and corporate restructurings."
-      },
-      "compliance": {
-        "title": "Compliance",
-        "description": "Support for compliance according to Legislative Decree 231/2001."
-      },
       "civilLaw": {
         "title": "Civil Law",
         "description": "Consultations on corporate, contractual, privacy, trademarks, and reputation issues."
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Consulting services for business strategy, legal advice, and risk management."
+      },
+      "extrajudicial": {
+        "title": "Extrajudicial",
+        "description": "Extrajudicial services including mediation, arbitration, and negotiation."
       }
     }
   },
-
   "Nosotros": {
     "teamTitle": "Our Team",
     "teamDescription": "We are composed of experienced and dedicated lawyers, ready to provide effective and personalized legal solutions for each client.",
@@ -89,7 +79,6 @@
     "teamMemberTitle": "Maura Monteforte",
     "teamMemberDescription": "A dear friend of the house has joined our team. She follows our fundamental principles: Communication, Availability, Competence. Essential requirements to provide safe and effective legal assistance."
   },
-
   "Contatti": {
     "mainHeading": "Need",
     "legalAssistance": "legal assistance",
@@ -99,5 +88,4 @@
     "servicesDescriptionSuffix": ". We are here to provide effective and personalized legal solutions.",
     "contactUs": "Contact us today for a consultation!"
   }
-
 }
