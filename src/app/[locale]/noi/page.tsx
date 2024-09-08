@@ -11,7 +11,7 @@ const Nosotros = () => {
     <>
       <div className="relative bg-cover bg-no-repeat h-96 max-h-[60vh] bg-[75%] md:bg-right-top"
         style={{
-          backgroundImage: "url('/images/teamBannerDesktop.png')"
+          backgroundImage: "url('/images/teamBannerDesktop.jpg')"
         }}>
         <div className="container mx-auto max-w-7xl ">
           <div className="absolute w-[75%] sm:w-[65%] md:w-[45%] xl:w-[33%] top-[50%] sm:top-[35%] md:top-[25%] bg-black bg-opacity-65 text-white p-5 sm:p-10">
