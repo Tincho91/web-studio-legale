@@ -52,23 +52,61 @@
     "description": "With over twenty years of experience, our team offers a wide range of legal services in criminal law, corporate acquisitions, compliance, and civil law."
   },
   "ServiziList": {
+    "locale": "en",
     "requestInfo": "REQUEST INFORMATION",
+    "viewDetails": "VIEW DETAILS",
     "services": {
-      "criminalLaw": {
-        "title": "Criminal Law",
-        "description": "Legal services in criminal law, support in complex cases."
+      "cittadinanzaItaliana": {
+        "title": "Italian Citizenship",
+        "description": "Our team provides comprehensive assistance in obtaining or confirming Italian citizenship through ancestry, marriage, or residency. We guide you through every step of the process, from gathering the necessary documentation and submitting applications to representing you in any legal hearings or appeals. Our experts ensure that your case is presented effectively, helping you navigate complex legal requirements and bureaucracy to achieve a successful outcome."
       },
-      "civilLaw": {
+      "dirittiDegliImmigrati": {
+        "title": "Immigrants' Rights",
+        "description": "We offer specialized legal support for immigrants, covering all aspects of visa applications, asylum claims, and residency permits. Our services include advising on legal rights and obligations, assisting with document preparation, and providing representation in immigration court. We are dedicated to protecting the rights of immigrants and ensuring fair treatment, whether you are seeking to enter the country, extend your stay, or resolve complex immigration issues."
+      },
+      "dirittoBancario": {
+        "title": "Banking Law",
+        "description": "Our legal team offers expert advice on a wide range of banking law issues, including regulatory compliance, dispute resolution, loan agreements, and mortgage financing. We represent both individuals and corporations in negotiations with financial institutions, provide counsel on banking litigation, and assist in drafting contracts that comply with national and international financial regulations. We aim to safeguard your financial interests with strategic and proactive legal support."
+      },
+      "consulenzaAlleImprese": {
+        "title": "Business Consulting",
+        "description": "We provide comprehensive consulting services to businesses, focusing on strategic planning, regulatory compliance, risk management, and corporate governance. Our team of experts can help you navigate complex legal environments, optimize your operations, and mitigate risks. From contract negotiations and mergers to intellectual property protection and dispute resolution, we partner with you to achieve your business objectives efficiently and effectively."
+      },
+      "crisiDImpresa": {
+        "title": "Business Crisis",
+        "description": "Our team specializes in managing business crises, offering legal guidance in restructuring, liquidation, and bankruptcy proceedings. We help you explore all available options, including debt restructuring, asset sales, and creditor negotiations. Our goal is to minimize financial losses, protect your assets, and ensure compliance with all legal obligations during challenging times. With our support, you can navigate a business crisis with confidence and clarity."
+      },
+      "dirittoImmobiliare": {
+        "title": "Real Estate Law",
+        "description": "We offer a full range of legal services in real estate law, including assistance with property acquisitions, lease agreements, zoning issues, and real estate disputes. Our team helps clients negotiate and draft contracts, resolve conflicts with buyers, sellers, or landlords, and ensure compliance with local, national, and international property laws. Whether you are buying your first home or managing a large portfolio, we provide the expertise you need for successful real estate transactions."
+      },
+      "dirittoDiFamiglia": {
+        "title": "Family Law",
+        "description": "Our family law services cover a wide range of issues, including divorce, child custody, spousal support, and inheritance disputes. We provide compassionate and strategic legal counsel to help you navigate emotional and complex situations. Our team works to protect your rights and interests, whether through negotiation, mediation, or litigation, ensuring the best possible outcomes for you and your family."
+      },
+      "dirittoDelloSport": {
+        "title": "Sports Law",
+        "description": "We provide specialized legal services for athletes, coaches, and sports organizations, including contract negotiations, dispute resolution, and regulatory compliance. Our team assists with issues related to sponsorship deals, image rights, anti-doping regulations, and disciplinary proceedings. We work to protect the interests of our clients in the dynamic and fast-paced world of sports, ensuring fair treatment and equitable contracts."
+      },
+      "dirittoCivile": {
         "title": "Civil Law",
-        "description": "Consultations on corporate, contractual, privacy, trademarks, and reputation issues."
+        "description": "Our expertise in civil law covers a broad spectrum of legal matters, such as contract disputes, property rights, and personal injury cases. We offer tailored legal solutions to individuals and businesses, ensuring their rights are protected in court or through alternative dispute resolution methods. Our team is dedicated to achieving favorable outcomes while minimizing stress and disruption for our clients."
       },
-      "consulting": {
-        "title": "Consulting",
-        "description": "Consulting services for business strategy, legal advice, and risk management."
+      "dirittoAmministrativo": {
+        "title": "Administrative Law",
+        "description": "We provide guidance on all aspects of administrative law, including public tenders, licenses, and regulatory compliance. Our team assists businesses and individuals in navigating complex government regulations, defending against administrative actions, and ensuring fair treatment under the law. We work to resolve disputes with government agencies efficiently and effectively, safeguarding your rights and interests."
       },
-      "extrajudicial": {
-        "title": "Extrajudicial",
-        "description": "Extrajudicial services including mediation, arbitration, and negotiation."
+      "dirittoSanitario": {
+        "title": "Health Law",
+        "description": "Our health law practice offers comprehensive legal support for healthcare providers, patients, and organizations. We cover areas such as patient rights, medical malpractice, health regulations, and compliance with healthcare laws. Our team advises on risk management, regulatory audits, and litigation, helping clients navigate the complex landscape of healthcare law with confidence and clarity."
+      },
+      "dirittoDelLavoro": {
+        "title": "Labor Law",
+        "description": "We provide expert advice and representation in all matters related to labor law, including employment contracts, workplace disputes, and employee rights. Our services include drafting employment agreements, negotiating severance packages, and representing clients in labor courts. We aim to foster fair and equitable work environments while protecting the rights and interests of both employers and employees."
+      },
+      "mediazioni": {
+        "title": "Mediation",
+        "description": "Our mediation services aim to resolve disputes quickly and amicably outside the courtroom. We facilitate open communication and negotiation between parties, helping them reach mutually acceptable solutions. Whether dealing with commercial disputes, family matters, or employment conflicts, our team offers a structured and supportive environment for resolving issues efficiently and effectively."
       }
     }
   },
@@ -87,5 +125,28 @@
     "legalServices": "criminal law, business acquisitions, compliance, and civil law",
     "servicesDescriptionSuffix": ". We are here to provide effective and personalized legal solutions.",
     "contactUs": "Contact us today for a consultation!"
+  },
+  "Info": {
+    "section1": {
+      "title": "How does the judicial process for obtaining Italian citizenship work?",
+      "description": "Obtaining Italian citizenship can be a complex process, especially when there are bureaucratic obstacles or specific requirements that make it difficult to obtain citizenship through normal administrative channels. The judicial route becomes the most viable option for recognizing citizenship, as the process through the consulate is too lengthy."
+    },
+    "section2": {
+      "title": "ITALIAN CITIZENSHIP: A QUICK GUIDE",
+      "description": "Our team offers complete specialized assistance with its own office in Brazil and lawyers in Italy, facilitating the entire process through judicial means to obtain citizenship in less than 2 years without waiting in queues."
+    },
+    "section3": {
+      "title": "WHO IS ENTITLED TO CITIZENSHIP?",
+      "description": "Recognizing Italian citizenship is a dream for many Brazilians. Italian Citizenship 0039 manages the entire process, ensuring you obtain your citizenship with the proper guidance. Italian citizenship is recognized by descent (jure sanguinis) as long as there is no interruption in the family line. To acquire Italian citizenship by MARRIAGE, certification of the Italian language at level B1 is required (CEFR: Common European Framework of Reference for Languages)."
+    },
+    "section4": {
+      "title": "REQUIRED DOCUMENTS:",
+      "description": "[b]Birth or Baptism Certificate[/b] (Must be obtained from the comune (municipality) where the ancestor was born or baptized).\n\n[b]Marriage Certificate[/b] (If the marriage took place in Italy, it must also be obtained from the corresponding comune. If it occurred in Brazil, the Brazilian certificate, which can be obtained from the registry office, is required).\n\n[b]Death Certificate[/b] (If the ancestor died in Brazil, the Brazilian death certificate must be obtained).\n\n[b]Lineage Certificate[/b] (Birth, Marriage, and Death Certificates of all descendants up to the applicant, including parents, grandparents, great-grandparents, etc.).\n\n[b]Negative Naturalization Certificate[/b] (Document issued by the Brazilian Ministry of Justice proving that the Italian ancestor did not naturalize as a Brazilian before the birth of the descendants).\n\n[b]Personal Documents[/b] (Copy of ID or Passport and updated Proof of Residence)."
+    },
+    "section5": {
+      "title": "WHAT ARE THE STEPS?",
+      "description": "[b]1 - Requesting Certificates:[/b] Request all the necessary certificates for the process in full-text digital format.\n\n[b]2 - Document Analysis:[/b] Our team of lawyers will conduct a thorough analysis of the documents, verifying the legitimacy of the lineage and the applicants, the feasibility of the process, among other points.\n\n[b]3 - Corrections:[/b] At the end of the analysis, all detailed data that needs correction will be sent to our clients when necessary.\n\n[b]4 - Filing the Process:[/b] The process is filed with the Italian court responsible for the region where your Italian ancestor was born.\n\n[b]5 - Process Follow-up:[/b] The client is informed about each stage of the process by our team and in real-time via the Italian app GIUSTIZIA CIVILE.\n\n[b]6 - Favorable Ruling:[/b] After the final ruling and the case closure, the documentation is sent to the comune of birth of the Italian ancestor so that the comune can make the transcriptions.\n\n[b]7 - Sending Certificates to Clients:[/b] We send the certificates issued by the comune that carried out the transcription to our clients."
+    },
+    "requestInfo": "REQUEST INFORMATION"
   }
 }

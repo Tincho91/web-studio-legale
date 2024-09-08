@@ -50,3 +50,15 @@ div.slick-dots li button {
 #map {
   height: 400px;
 }
+
+.bg-gradient-repeating {
+  background: repeating-linear-gradient(
+    to bottom,
+    #090D1D 0%,
+    #090D1D 33%,
+    #ffffff 33%,
+    #ffffff 66%,
+    #090D1D 66%,
+    #090D1D 100%
+  );
+}

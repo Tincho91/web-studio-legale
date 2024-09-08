@@ -5,7 +5,7 @@ const ContactForm: React.FC = () => {
   const t = useTranslations('ContactForm');
 
   return (
-    <div className="bg-[#ECF0FF]">
+    <div className="bg-[#ECF0FF]" id='contatti'>
       <div className="max-w-screen-xl mx-auto px-8 py-12">
         <h1 className="text-black text-center text-4xl md:text-5xl font-bold pb-5">{t('title')}</h1>
         <div className="bg-white p-10 border-2 border-gray-900">

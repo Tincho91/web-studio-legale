@@ -11,24 +11,69 @@ interface Service {
 
 const services: Service[] = [
   {
-    title: "services.criminalLaw.title",
-    description: "services.criminalLaw.description",
+    title: "services.cittadinanzaItaliana.title",
+    description: "services.cittadinanzaItaliana.description",
     bgImage: "/images/servicios1.jpg",
   },
   {
-    title: "services.civilLaw.title",
-    description: "services.civilLaw.description",
+    title: "services.dirittiDegliImmigrati.title",
+    description: "services.dirittiDegliImmigrati.description",
     bgImage: "/images/servicios2.jpg",
   },
   {
-    title: "services.consulting.title",
-    description: "services.consulting.description",
+    title: "services.dirittoBancario.title",
+    description: "services.dirittoBancario.description",
     bgImage: "/images/servicios3.jpg",
   },
   {
-    title: "services.extrajudicial.title",
-    description: "services.extrajudicial.description",
+    title: "services.consulenzaAlleImprese.title",
+    description: "services.consulenzaAlleImprese.description",
     bgImage: "/images/servicios4.jpg",
+  },
+  {
+    title: "services.crisiDImpresa.title",
+    description: "services.crisiDImpresa.description",
+    bgImage: "/images/servicios5.jpg",
+  },
+  {
+    title: "services.dirittoImmobiliare.title",
+    description: "services.dirittoImmobiliare.description",
+    bgImage: "/images/servicios6.jpg",
+  },
+  {
+    title: "services.dirittoDiFamiglia.title",
+    description: "services.dirittoDiFamiglia.description",
+    bgImage: "/images/servicios7.jpg",
+  },
+  {
+    title: "services.dirittoDelloSport.title",
+    description: "services.dirittoDelloSport.description",
+    bgImage: "/images/servicios8.jpg",
+  },
+  {
+    title: "services.dirittoCivile.title",
+    description: "services.dirittoCivile.description",
+    bgImage: "/images/servicios9.jpg",
+  },
+  {
+    title: "services.dirittoAmministrativo.title",
+    description: "services.dirittoAmministrativo.description",
+    bgImage: "/images/servicios10.jpg",
+  },
+  {
+    title: "services.dirittoSanitario.title",
+    description: "services.dirittoSanitario.description",
+    bgImage: "/images/servicios11.jpg",
+  },
+  {
+    title: "services.dirittoDelLavoro.title",
+    description: "services.dirittoDelLavoro.description",
+    bgImage: "/images/servicios12.jpg",
+  },
+  {
+    title: "services.mediazioni.title",
+    description: "services.mediazioni.description",
+    bgImage: "/images/servicios13.jpg",
   },
 ];
 
@@ -60,13 +105,13 @@ const ServiziList: FC = () => {
                 </p>
               </FadeInFrom>
 
-              <a href="/servizi">
+              <a href={index === 0 ? `/${t('locale')}/servizi/cittadinanza` : '#contatti'}>
                 <div
                   className={`flex items-center gap-5 justify-center absolute bottom-0 right-0 bg-${index % 2 === 0 ? '[#090D1D]' : 'white'} z-1 py-5 px-5 text-${index % 2 === 0 ? 'white' : 'black'} font-roboto text-16 font-light tracking-[4.8px]`}
                 >
                   <BsChatDots className="text-xl" />
                   <span className={`text-${index % 2 === 0 ? 'white' : 'black'}`}>
-                    {t('requestInfo')}
+                    {index === 0 ? t('viewDetails') : t('requestInfo')}
                   </span>
                 </div>
               </a>
