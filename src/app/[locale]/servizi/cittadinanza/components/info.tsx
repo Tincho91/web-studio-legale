@@ -8,9 +8,9 @@ const Info = () => {
 
   const formatTextToHtml = (text: string) => {
     const formattedText = text
-      .replace(/\[b\](.*?)\[\/b\]/g, '<strong>$1</strong>')
-      .replace(/\n/g, '<br/>');
-    
+      .replace(/\[b\](.*?)\[\/b\]/g, '<strong>$1</strong>') // Bold
+      .replace(/\n/g, '<br/>') // Line breaks
+      .replace(/\[Cittadinanza Italiana 0039\]\(link, class: '(.+?)'\)/g, '<a href="https://cidadaniaitaliana0039.com.br/" class="$1">Cittadinanza Italiana 0039</a>'); // Link with class
     return formattedText;
   };
 

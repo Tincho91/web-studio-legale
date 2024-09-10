@@ -89,22 +89,22 @@ const ServiziList: FC = () => {
         >
           <div className="container max-w-[1200px] mx-auto py-8 px-8 relative overflow-hidden">
             <div
-              className="min-h-[375px] relative flex flex-col items-center text-left px-6 md:px-10 pt-12 md:pt-10 pb-20 md:pb-10 mb-8 text-white bg-cover bg-center"
+              className="min-h-[375px] relative flex flex-col items-center justify-center text-center px-6 md:px-10 mb-8 text-white bg-cover bg-center"
               style={{
                 backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%), url('${service.bgImage}')`,
               }}
             >
               <FadeInFrom id={index.toString()} direction="bottom">
-                <h2 className="text-white pb-5 font-ruda text-4xl md:text-5xl">
+                <h2 className="text-white font-ruda text-5xl md:text-6xl">
                   {t(service.title)}
                 </h2>
-              </FadeInFrom>
-              <FadeInFrom id={index.toString()} direction="bottom">
-                <p className="text-white font-roboto max-w-full flex-1">
-                  {t(service.description)}
-                </p>
-              </FadeInFrom>
 
+                {index === 0 && (
+                  <p className="text-white font-roboto max-w-full flex-1 mt-4">
+                    {t(service.description)}
+                  </p>
+                )}
+              </FadeInFrom>
               <a href={index === 0 ? `/${t('locale')}/servizi/cittadinanza` : '#contatti'}>
                 <div
                   className={`flex items-center gap-5 justify-center absolute bottom-0 right-0 bg-${index % 2 === 0 ? '[#090D1D]' : 'white'} z-1 py-5 px-5 text-${index % 2 === 0 ? 'white' : 'black'} font-roboto text-16 font-light tracking-[4.8px]`}
@@ -124,3 +124,4 @@ const ServiziList: FC = () => {
 };
 
 export default ServiziList;
+

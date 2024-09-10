@@ -54,7 +54,7 @@
     "heading": "Você precisa de",
     "highlight": "assistência",
     "headingSuffix": " jurídica?",
-    "description": "Com mais de vinte anos de experiência, nossa equipe oferece uma ampla gama de serviços jurídicos em direito penal, aquisições corporativas, compliance e direito civil."
+    "description": "Com mais de vinte anos de experiência, nossa equipe oferece uma ampla gama de serviços jurídicos em direito bancário, aquisições corporativas, compliance e direito civil."
   },
   "ServiziList": {
     "locale": "pt",
@@ -138,15 +138,15 @@
     },
     "section2": {
       "title": "CIDADANIA ITALIANA: UM GUIA RÁPIDO",
-      "description": "Nossa equipe oferece assistência completa especializada com escritório próprio no Brasil e Advogados na Itália, facilitando todo o processo por via judicial com a cidadania em menos de 2 anos e sem filas de agendamento."
+      "description": "Nossa equipe oferece assistência especializada completa com escritórios próprios e advogados em vários países e em toda a Itália, facilitando todo o processo por via judicial com a cidadania em menos de 2 anos e sem filas de agendamento."
     },
     "section3": {
       "title": "QUEM TEM DIREITO A CIDADANIA?",
-      "description": "Reconhecer a cidadania italiana é um sonho para muitos brasileiros. A Cidadania Italiana 0039 realiza todo o processo e você conquista sua cidadania devidamente orientado. A cidadania italiana é reconhecida por descendência (jure sanguinis) desde que não haja interrupção na linhagem familiar. Para adquirir a cidadania italiana por CASAMENTO, é necessário a certificação da Língua Italiana nível B1 (QCER: Quadro Comune Europeu di riferimento per le Língue)."
+      "description": "Reconhecer a cidadania italiana é um sonho para muitos imigrantes. No Brasil, por exemplo, foi lançado o site Cidadania Italiana 0039, que realiza todo o processo e ajuda a obter sua cidadania com a orientação correta. A cidadania italiana é reconhecida por descendência (jure sanguinis), desde que não haja interrupção na linha familiar. Para adquirir a cidadania italiana por MATRIMÔNIO, é necessário certificar o nível de conhecimento da língua italiana B1 (QCER: Quadro Europeu Comum de Referência para as Línguas)."
     },
     "section4": {
       "title": "DOCUMENTOS REQUERIDOS:",
-      "description": "[b]Certificado de Nascimento ou Batismo[/b] (Deve ser obtido no comune (município) onde o antecessor nasceu ou foi batizado).\n\n[b]Certificado de Casamento[/b] (Se o casamento ocorreu na Itália, também deve ser obtido no comune correspondente. Se ocorreu no Brasil, é necessário o certificado brasileiro, que pode ser obtido no cartório).\n\n[b]Certificado de Óbito[/b] (Se o antecessor faleceu no Brasil, é necessário obter o certificado de óbito brasileiro).\n\n[b]Certificado de Linhagem[/b] (Certificados de Nascimento, Casamento e Óbito de todos os descendentes até o requerente, incluindo pais, avós, bisavós, etc.).\n\n[b]Certificado de Não Naturalização[/b] (Documento emitido pelo Ministério da Justiça do Brasil comprovando que o antecessor italiano não se naturalizou como brasileiro antes do nascimento dos descendentes).\n\n[b]Documentos Pessoais[/b] (Cópia de ID ou Passaporte e Comprovante de Residência atualizado)."
+      "description": "[b]Certificado de Nascimento ou Batismo[/b] (Deve ser obtido no comune (município) onde o antecessor nasceu ou foi batizado).\n\n[b]Certificado de Casamento[/b] (Se o casamento ocorreu na Itália, também deve ser obtido no comune correspondente. Se ocorreu no Brasil, é necessário o certificado brasileiro, que pode ser obtido no cartório).\n\n[b]Certificado de Óbito[/b] (Se o antecessor faleceu, por exemplo, no Brasil, é necessário obter o certificado de óbito brasileiro).\n\n[b]Certificado de Linhagem[/b] (Certificados de Nascimento, Casamento e Óbito de todos os descendentes até o requerente, incluindo pais, avós, bisavós, etc.).\n\n[b]Certificado de Não Naturalização[/b] (Documento emitido pelo Ministério da Justiça do Brasil comprovando que o antecessor italiano não se naturalizou como brasileiro antes do nascimento dos descendentes).\n\n[b]Documentos Pessoais[/b] (Cópia de ID ou Passaporte e Comprovante de Residência atualizado)."
     },
     "section5": {
       "title": "QUAIS SÃO OS PASSOS?",

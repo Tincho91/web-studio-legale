@@ -992,9 +992,6 @@ video {
 .pb-10 {
   padding-bottom: 2.5rem;
 }
-.pb-20 {
-  padding-bottom: 5rem;
-}
 .pb-32 {
   padding-bottom: 8rem;
 }
@@ -1039,6 +1036,10 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-base {
   font-size: 1rem;
@@ -1169,6 +1170,10 @@ div.slick-dots li button {
     #090D1D 66%,
     #090D1D 100%
   );
+}
+
+.link-class {
+  color: #3498db; 
 }
 
 @media (min-width: 640px) {
@@ -1364,6 +1369,11 @@ div.slick-dots li button {
 
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
