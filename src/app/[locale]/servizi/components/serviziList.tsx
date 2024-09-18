@@ -89,7 +89,7 @@ const ServiziList: FC = () => {
         >
           <div className="container max-w-[1200px] mx-auto py-8 px-8 relative overflow-hidden">
             <div
-              className="min-h-[375px] relative flex flex-col items-center justify-center text-center px-6 md:px-10 mb-8 text-white bg-cover bg-center"
+              className="min-h-[375px] relative flex flex-col items-center justify-center text-center px-6 md:px-10 mb-8 text-white bg-cover bg-center pt-10 pb-20                                                                                                   "
               style={{
                 backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%), url('${service.bgImage}')`,
               }}
