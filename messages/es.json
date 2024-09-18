@@ -7,7 +7,7 @@
   },
   "Servizi": {
     "title": "Las Áreas de Actividad",
-    "description": "El Estudio ofrece servicios legales en derecho penal, adquisiciones empresariales y compliance. Con más de veinte años de experiencia, apoya operaciones de due diligence para private equity y empresas públicas. Ha creado un departamento de derecho civil para asesorar sobre cuestiones societarias, contractuales, privacidad, marcas y reputación. Los profesionales colaboran con otras Law Firms y consultores a nivel nacional e internacional.",
+    "description": "El Estudio ofrece servicios legales en Derecho Civil, Derechos de los Inmigrantes, Derecho Bancario, Consultoría Empresarial, Crisis Empresarial, Derecho Inmobiliario, Derecho de Familia, Derecho Deportivo, Derecho Administrativo, Derecho Sanitario, Derecho Laboral y Mediación. Además, ha creado desde hace tiempo un departamento de consultoría sobre la Ciudadanía Italiana. Los profesionales colaboran con otros Estudios Jurídicos y consultores a nivel nacional e internacional",
     "seeServices": "VER LOS SERVICIOS",
     "locale": "es"
   },
@@ -37,9 +37,9 @@
       "tipoServizio": "Servicio requerido"
     },
     "selectOptions": {
-      "DirittoPenale": "Derecho Penal",
-      "AcquisizioniAziendali": "Adquisiciones Empresariales",
-      "Compliance": "Cumplimiento",
+      "CittadinanzaItaliana": "Ciudadanía Italiana",
+      "DirittoBancario": "Derecho Bancario",
+      "DirittoLavoro": "Derecho Laboral",
       "DirittoCivile": "Derecho Civil",
       "Altro": "Otro"
     },
@@ -54,7 +54,7 @@
     "heading": "¿Necesitas",
     "highlight": "asistencia",
     "headingSuffix": " legal?",
-    "description": "Con más de veinte años de experiencia, nuestro equipo ofrece una amplia gama de servicios legales en derecho bancario, adquisiciones corporativas, cumplimiento y derecho civil."
+    "description": "Con más de veinte años de experiencia, nuestro equipo ofrece una amplia gama de servicios legales en derecho bancario, adquisiciones empresariales, derecho civil, derecho sanitario y ciudadanía italiana."
   },
   "ServiziList": {
     "locale": "es",
@@ -117,18 +117,20 @@
   },
   "Nosotros": {
     "teamTitle": "Nuestro Equipo",
-    "teamDescription": "Estamos compuestos por abogados experimentados y dedicados, listos para ofrecer soluciones legales efectivas y personalizadas para cada cliente.",
-    "longDescription": "El bufete de abogados ha experimentado una fase de crecimiento constante y, durante más de 20 años, ha brindado asesoramiento legal y asistencia judicial. Con una reputación impecable, un enfoque amigable y profesional, hoy se compromete a aprovechar las oportunidades digitales sin perder su empatía y vocación de ofrecer soluciones legales efectivas y pragmáticas.",
-    "teamMemberTitle": "Maura Monteforte",
-    "teamMemberDescription": "Una querida amiga de la casa se ha unido a nuestro equipo. Ella sigue nuestros principios fundamentales: Comunicación, Disponibilidad, Competencia. Requisitos esenciales para proporcionar asistencia legal segura y efectiva."
+    "teamDescription": "Estamos compuestos por abogados experimentados y dedicados, listos para proporcionar soluciones legales eficaces y personalizadas para cada cliente.",
+    "longDescription": "El bufete de abogados ha pasado por una fase de crecimiento constante y, durante más de 20 años, ha proporcionado asesoramiento legal y asistencia judicial. Con una reputación impecable, un enfoque amigable y profesional, hoy está comprometido a aprovechar las oportunidades digitales sin perder su empatía y vocación de ofrecer soluciones legales efectivas y pragmáticas.",
+    "mariaAgovinoName": "Maria Agovino",
+    "mariaAgovinoDescription": "Abogada Senior ante las Magistraturas Superiores (Tribunal de Justicia, Corte de Casación, Consejo de Estado, Tribunales de toda Italia). Consultora en Derecho Bancario, Mediadora, Experta en Reestructuración de Deuda, Derecho Sanitario y Derechos de los Inmigrantes. Asesora jurídica de representantes institucionales italianos. Experta en fiscalidad internacional.",
+    "mauraMonteforteName": "Maura Monteforte",
+    "mauraMonteforteDescription": "Abogada Senior ante las Magistraturas Superiores (Tribunal de Justicia, Corte de Casación, Consejo de Estado, Tribunales de toda Italia). Consultora en Ciudadanía Italiana, Sucesiones Hereditarias, Consultoría en compraventas y alquileres inmobiliarios. Experta en Derecho Laboral. Consejera del Colegio de Abogados de Cosenza y Directora de la Escuela Forense."
   },
   "Contatti": {
     "mainHeading": "¿Necesitas",
     "legalAssistance": "asistencia",
     "legalNeed": "legal?",
-    "servicesDescriptionPrefix": "Con más de veinte años de experiencia, nuestro equipo ofrece una amplia gama de servicios legales, incluyendo",
-    "legalServices": "derecho penal, adquisiciones empresariales, cumplimiento normativo y derecho civil",
-    "servicesDescriptionSuffix": ". Estamos aquí para ofrecer soluciones legales efectivas y personalizadas.",
+    "servicesDescriptionPrefix": "Con más de veinte años de experiencia, nuestro equipo ofrece una amplia gama de servicios legales en",
+    "legalServices": "derecho bancario, adquisiciones empresariales, derecho civil, derecho sanitario y ciudadanía italiana",
+    "servicesDescriptionSuffix": ". Estamos aquí para ofrecer soluciones legales eficaces y personalizadas.",
     "contactUs": "¡Contáctanos hoy mismo para una consulta!"
   },
   "Info": {

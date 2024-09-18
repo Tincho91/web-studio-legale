@@ -7,7 +7,7 @@
   },
   "Servizi": {
     "title": "Areas of Activity",
-    "description": "The Firm offers legal services in criminal law, corporate acquisitions, and compliance. With over twenty years of experience, it supports due diligence operations for private equity and public companies. It has created a civil law department for advice on corporate, contractual, privacy, trademark, and reputation issues. The professionals collaborate with other Law Firms and consultants at national and international levels.",
+    "description": "The Firm offers legal services in Civil Law, Immigrant Rights, Banking Law, Business Consulting, Business Crisis, Real Estate Law, Family Law, Sports Law, Administrative Law, Health Law, Labor Law, and Mediation. Additionally, it has long since created a department for consultations on Italian Citizenship. The professionals collaborate with other Law Firms and consultants at both the national and international level.",
     "seeServices": "SEE SERVICES",
     "locale": "en"
   },
@@ -37,9 +37,9 @@
       "tipoServizio": "Select a Service"
     },
     "selectOptions": {
-      "DirittoPenale": "Criminal Law",
-      "AcquisizioniAziendali": "Business Acquisitions",
-      "Compliance": "Compliance",
+      "CittadinanzaItaliana": "Italian Citizenship",
+      "DirittoBancario": "Banking Law",
+      "DirittoLavoro": "Labor Law",
       "DirittoCivile": "Civil Law",
       "Altro": "Other"
     },
@@ -49,7 +49,7 @@
     "heading": "Do you need legal",
     "highlight": "assistance",
     "headingSuffix": "",
-    "description": "With over twenty years of experience, our team offers a wide range of legal services in banking law, corporate acquisitions, compliance, and civil law."
+    "description": "With over twenty years of experience, our team offers a wide range of legal services in banking law, corporate acquisitions, civil law, health law, and Italian citizenship."
   },
   "ServiziList": {
     "locale": "en",
@@ -114,15 +114,17 @@
     "teamTitle": "Our Team",
     "teamDescription": "We are composed of experienced and dedicated lawyers, ready to provide effective and personalized legal solutions for each client.",
     "longDescription": "The law firm has gone through a phase of constant growth and, for over 20 years, has provided legal advice and judicial assistance. With an impeccable reputation, a friendly and professional approach, today it is committed to harnessing digital opportunities without losing its empathy and vocation to offer effective and pragmatic legal solutions.",
-    "teamMemberTitle": "Maura Monteforte",
-    "teamMemberDescription": "A dear friend of the house has joined our team. She follows our fundamental principles: Communication, Availability, Competence. Essential requirements to provide safe and effective legal assistance."
+    "mariaAgovinoName": "Maria Agovino",
+    "mariaAgovinoDescription": "Senior Lawyer at the Higher Magistracies (Court of Justice, Court of Cassation, Council of State, Courts across Italy). Consultant in Banking Law, Mediator, Debt Restructuring Expert, Health Law, and Immigrant Rights. Legal advisor to Italian institutional representatives. Expert in international tax law",
+    "mauraMonteforteName": "Maura Monteforte",
+    "mauraMonteforteDescription": "Senior Lawyer at the Higher Magistracies (Court of Justice, Court of Cassation, Council of State, Courts across Italy). Consultant in Italian Citizenship, Inheritance Law, Real Estate Sales and Rentals Consulting. Expert in Labor Law. Counselor of the Bar Association of Cosenza and Director of the Forensic School"
   },
   "Contatti": {
-    "mainHeading": "Need",
-    "legalAssistance": "legal assistance",
-    "legalNeed": "?",
-    "servicesDescriptionPrefix": "With over twenty years of experience, our team provides a wide range of legal services, including",
-    "legalServices": "criminal law, business acquisitions, compliance, and civil law",
+    "mainHeading": "Do you need",
+    "legalAssistance": "legal",
+    "legalNeed": "assistance?",
+    "servicesDescriptionPrefix": "With over twenty years of experience, our team offers a wide range of legal services in",
+    "legalServices": "banking law, corporate acquisitions, civil law, health law, and Italian citizenship",
     "servicesDescriptionSuffix": ". We are here to provide effective and personalized legal solutions.",
     "contactUs": "Contact us today for a consultation!"
   },

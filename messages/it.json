@@ -7,7 +7,7 @@
   },
   "Servizi": {
     "title": "Le Aree di Attività",
-    "description": "Lo Studio offre servizi legali in diritto penale, acquisizioni aziendali e compliance. Con oltre vent'anni di esperienza, supporta operazioni di due diligence per private equity e aziende pubbliche. Ha creato un dipartimento di diritto civile per consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione. I professionisti collaborano con altre Law Firm e consulenti a livello nazionale e internazionale.",
+    "description": "Lo Studio offre servizi legali in Diritto Civile, Diritti degli Immigrati, Diritto Bancario, Consulenza alle Imprese, Crisi d’Impresa, Diritto Immobiliare, Diritto di Famiglia, Diritto dello Sport, Diritto Amministrativo, Diritto Sanitario, Diritto del Lavoro, Mediazione. Ha, inoltre, da tempo creato un dipartimento per consulenze sulla Cittadinanza Italiana. I professionisti collaborano con altre Law Firm e consulenti a livello nazionale e internazionale.",
     "seeServices": "VEDI I SERVIZI",
     "locale": "it"
   },
@@ -37,9 +37,9 @@
       "tipoServizio": "Servizio richiesto"
     },
     "selectOptions": {
-      "DirittoPenale": "Diritto Penale",
-      "AcquisizioniAziendali": "Acquisizioni Aziendali",
-      "Compliance": "Compliance",
+      "CittadinanzaItaliana": "Cittadinanza Italiana",
+      "DirittoBancario": "Diritto Bancario",
+      "DirittoLavoro": "Diritto al Lavoro",
       "DirittoCivile": "Diritto Civile",
       "Altro": "Altro"
     },
@@ -54,7 +54,7 @@
     "heading": "Hai bisogno di",
     "highlight": "assistenza",
     "headingSuffix": " legale?",
-    "description": "Con oltre vent'anni di esperienza, il nostro team offre una vasta gamma di servizi legali in diritto bancario, acquisizioni aziendali, compliance, e diritto civile."
+    "description": "Con oltre vent'anni di esperienza, il nostro team offre una vasta gamma di servizi legali in diritto bancario, acquisizioni aziendali, diritto civile, diritto sanitario e cittadinanza italiana."
   },
   "ServiziList": {
     "locale": "it",
@@ -117,17 +117,19 @@
   },
   "Nosotros": {
     "teamTitle": "Il Nostro Team",
-    "teamDescription": "Siamo composti da avvocati esperti e dedicati, pronti a offrire soluzioni legali efficaci e personalizzate per ogni cliente.",
-    "longDescription": "Lo studio legale ha attraversato una fase di crescita costante e, per oltre 20 anni, ha fornito consulenza legale e assistenza giudiziaria. Con una reputazione impeccabile, un approccio cordiale e professionale, oggi si impegna a sfruttare le opportunità digitali senza perdere la propria empatia e vocazione a offrire soluzioni legali efficaci e pragmatiche.",
-    "teamMemberTitle": "Maura Monteforte",
-    "teamMemberDescription": "Al nostro team si è unita una cara amica della casa. Lei segue i nostri principi fondamentali: Comunicazione, Disponibilità, Competenza. Requisiti essenziali per fornire un'assistenza legale sicura ed efficace."
+    "teamDescription": "Siamo composti da avvocati esperti e dedicati, pronti a fornire soluzioni legali efficaci e personalizzate per ogni cliente.",
+    "longDescription": "Lo studio legale ha attraversato una fase di crescita costante e, per oltre 20 anni, ha fornito consulenza legale e assistenza giudiziaria. Con una reputazione impeccabile, un approccio cordiale e professionale, oggi è impegnato a sfruttare le opportunità digitali senza perdere la propria empatia e vocazione ad offrire soluzioni legali efficaci e pragmatiche.",
+    "mariaAgovinoName": "Maria Agovino",
+    "mariaAgovinoDescription": "Avvocato Senior presso le Magistrature superiori (Corte di Giustizia, Corte di Cassazione, Consiglio di Stato, Tribunali di tutta Italia). Consulente in Diritto Bancario, Mediatore, Esperto in Ristrutturazione del Debito, Diritto Sanitario e Diritti degli Immigrati. Collaboratore giuridico di rappresentanti istituzionali italiani. Esperto in fiscalità internazionale.",
+    "mauraMonteforteName": "Maura Monteforte",
+    "mauraMonteforteDescription": "Avvocato Senior presso le Magistrature superiori (Corte di Giustizia, Corte di Cassazione, Consiglio di Stato, Tribunali di tutta Italia). Consulente in Cittadinanza Italiana, Successioni ereditarie, Consulenza per compravendite e locazioni immobiliari. Esperto in Diritto del Lavoro. Consigliere dell'Ordine degli Avvocati di Cosenza e Direttore della Scuola Forense."
   },
   "Contatti": {
     "mainHeading": "Hai bisogno di",
-    "legalAssistance": "assistenza legale",
+    "legalAssistance": "assistenza",
     "legalNeed": "legale?",
-    "servicesDescriptionPrefix": "Con oltre vent'anni di esperienza, il nostro team offre una vasta gamma di servizi legali, tra cui",
-    "legalServices": "diritto penale, acquisizioni aziendali, compliance e diritto civile",
+    "servicesDescriptionPrefix": "Con oltre vent'anni di esperienza, il nostro team offre una vasta gamma di servizi legali in",
+    "legalServices": "diritto bancario, acquisizioni aziendali, diritto civile, diritto sanitario e cittadinanza italiana",
     "servicesDescriptionSuffix": ". Siamo qui per fornire soluzioni legali efficaci e personalizzate.",
     "contactUs": "Contattaci oggi stesso per una consulenza!"
   },
