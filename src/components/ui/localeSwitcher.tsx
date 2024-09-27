@@ -39,7 +39,7 @@ const LocaleSwitcher: React.FC<LocaleSwitcherProps> = () => {
   }
 
   return (
-    <div className="flex gap-5 flex-row items-center mt-10">
+    <div className="grid grid-cols-2 gap-4 mt-10 sm:grid-cols-2 md:grid-cols-4 sm:gap-4">
       {Object.keys(localeData).map((loc: string) => {
         const { label, imgSrc, alt } = localeData[loc];
         const isActive = loc === locale;
@@ -50,8 +50,8 @@ const LocaleSwitcher: React.FC<LocaleSwitcherProps> = () => {
             className={`cursor-pointer ${isActive ? 'font-bold' : ''}`}
           >
             <div className="flex flex-col items-center">
-              <span className="text-lg">{label}</span>
-              <img src={imgSrc} alt={alt} className="w-8 h-8" />
+              <img src={imgSrc} alt={alt} className="w-12 h-12 mb-2" />
+              <span className="text-base">{label}</span>
             </div>
           </button>
         );

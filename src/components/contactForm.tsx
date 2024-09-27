@@ -1,6 +1,8 @@
 import { AiOutlineSend } from 'react-icons/ai';
 import { useTranslations } from 'next-intl';
 
+import WhatsAppButton from '@/components/ui/whatsAppButton';
+
 const ContactForm: React.FC = () => {
   const t = useTranslations('ContactForm');
 
@@ -47,10 +49,9 @@ const ContactForm: React.FC = () => {
                 required
               >
                 <option value="">{t('inputPlaceholders.tipoServizio')}</option>
-                <option value="Diritto Penale">{t('selectOptions.DirittoPenale')}</option>
-                <option value="Acquisizioni Aziendali">{t('selectOptions.AcquisizioniAziendali')}</option>
-                <option value="Compliance">{t('selectOptions.Compliance')}</option>
-                <option value="Diritto Civile">{t('selectOptions.DirittoCivile')}</option>
+                <option value="Cittadinanza Italiana">{t('selectOptions.CittadinanzaItaliana')}</option>
+                <option value="Banking Law">{t('selectOptions.DirittoLavoro')}</option>
+                <option value="Compliance">{t('selectOptions.DirittoCivile')}</option>
                 <option value="Altro">{t('selectOptions.Altro')}</option>
               </select>
             </div>
@@ -62,6 +63,8 @@ const ContactForm: React.FC = () => {
               <AiOutlineSend />
               <span>{t('buttonText')}</span>
             </button>
+
+            <WhatsAppButton />
           </form>
         </div>
       </div>

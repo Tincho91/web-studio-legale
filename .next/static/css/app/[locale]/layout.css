@@ -578,6 +578,39 @@ video {
 .top-\[50\%\] {
   top: 50%;
 }
+.right-4 {
+  right: 1rem;
+}
+.top-10 {
+  top: 2.5rem;
+}
+.top-20 {
+  top: 5rem;
+}
+.left-1 {
+  left: 0.25rem;
+}
+.top-5 {
+  top: 1.25rem;
+}
+.top-\[5\%\] {
+  top: 5%;
+}
+.top-\[1\%\] {
+  top: 1%;
+}
+.top-\[4\%\] {
+  top: 4%;
+}
+.left-\[1\%\] {
+  left: 1%;
+}
+.left-\[0\.5\%\] {
+  left: 0.5%;
+}
+.left-\[0\.4\%\] {
+  left: 0.4%;
+}
 .z-0 {
   z-index: 0;
 }
@@ -655,6 +688,12 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .block {
   display: block;
 }
@@ -663,6 +702,9 @@ video {
 }
 .flex {
   display: flex;
+}
+.grid {
+  display: grid;
 }
 .hidden {
   display: none;
@@ -697,11 +739,23 @@ video {
 .h-full {
   height: 100%;
 }
+.h-12 {
+  height: 3rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
 .max-h-\[60vh\] {
   max-height: 60vh;
 }
 .max-h-\[75vh\] {
   max-height: 75vh;
+}
+.max-h-screen {
+  max-height: 100vh;
+}
+.max-h-80 {
+  max-height: 20rem;
 }
 .min-h-\[250px\] {
   min-height: 250px;
@@ -732,6 +786,12 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-12 {
+  width: 3rem;
+}
+.w-6 {
+  width: 1.5rem;
 }
 .max-w-3xl {
   max-width: 48rem;
@@ -771,6 +831,15 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
+.list-inside {
+  list-style-position: inside;
+}
+.list-disc {
+  list-style-type: disc;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .flex-row {
   flex-direction: row;
 }
@@ -806,6 +875,9 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -856,6 +928,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(17 24 39 / var(--tw-border-opacity));
 }
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
 .bg-\[\#090D1D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(9 13 29 / var(--tw-bg-opacity));
@@ -895,6 +971,10 @@ video {
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -945,6 +1025,9 @@ video {
 .p-5 {
   padding: 1.25rem;
 }
+.p-1 {
+  padding: 0.25rem;
+}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -989,14 +1072,22 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 .pb-20 {
   padding-bottom: 5rem;
 }
-.pb-32 {
-  padding-bottom: 8rem;
+.pb-24 {
+  padding-bottom: 6rem;
 }
 .pb-5 {
   padding-bottom: 1.25rem;
@@ -1012,6 +1103,9 @@ video {
 }
 .pt-8 {
   padding-top: 2rem;
+}
+.pt-1 {
+  padding-top: 0.25rem;
 }
 .text-left {
   text-align: left;
@@ -1043,6 +1137,12 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+.text-\[4vw\] {
+  font-size: 4vw;
+}
+.text-\[8vw\] {
+  font-size: 8vw;
 }
 .text-base {
   font-size: 1rem;
@@ -1101,9 +1201,17 @@ video {
   --tw-text-opacity: 1;
   color: rgb(30 64 175 / var(--tw-text-opacity));
 }
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 .no-underline {
   text-decoration-line: none;
@@ -1179,6 +1287,11 @@ div.slick-dots li button {
   color: #3498db; 
 }
 
+.hover\:text-gray-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
 
   .sm\:top-\[35\%\] {
@@ -1229,12 +1342,20 @@ div.slick-dots li button {
     width: 65%;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
 
   .sm\:items-end {
     align-items: flex-end;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
   }
 
   .sm\:bg-\[\#ECF0FF\] {
@@ -1253,6 +1374,10 @@ div.slick-dots li button {
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .sm\:pl-3 {
@@ -1288,6 +1413,11 @@ div.slick-dots li button {
 
   .sm\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
@@ -1330,6 +1460,10 @@ div.slick-dots li button {
     max-width: 20rem;
   }
 
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:bg-right-top {
     background-position: right top;
   }
@@ -1345,10 +1479,6 @@ div.slick-dots li button {
 
   .md\:pb-0 {
     padding-bottom: 0px;
-  }
-
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
   }
 
   .md\:pt-10 {
@@ -1383,11 +1513,6 @@ div.slick-dots li button {
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 

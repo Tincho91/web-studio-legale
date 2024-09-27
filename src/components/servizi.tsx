@@ -10,16 +10,16 @@ const Servizi = () => {
     <div className="bg-[#090D1D] relative" id="servizi">
       <div className="max-w-screen-xl mx-auto py-8 px-8 relative overflow-hidden">
         <div
-          className="min-h-[375px] bg-cover bg-center relative flex flex-col items-center text-center px-6 md:px-10 pt-12 md:pt-10 pb-32 md:pb-10"
+          className="bg-cover bg-center relative flex flex-col items-center text-center px-5 md:px-10 pt-12 md:pt-10"
           style={{
             backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%), url('/images/servicios.jpg')`,
           }}
         >
           <FadeInFrom direction="left" id="homeServizi">
-            <h2 className="text-white pb-5 font-ruda text-4xl md:text-5xl text-center">
+            <h2 className="text-white pb-5 font-ruda text-[8vw] md:text-5xl text-center">
               {t('title')}
             </h2>
-            <p className="text-white font-roboto text-xl text-left">
+            <p className="text-white pb-24 sm:pb-20 font-roboto text-[4vw] sm:text-xl text-left">
               {t('description')}
             </p>
           </FadeInFrom>

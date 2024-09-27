@@ -23,13 +23,13 @@ const Navbar = () => {
               href="/"
               className="ml-auto md:ml-0 order-2 md:order-1 w-full text-center"
             >
-              <div className="font-ruda text-center">
-                <span className="text-lg md:text-3xl font-bold text-[#090D1D]">
+              <div className="text-[4vw] font-ruda text-center">
+                <span className="md:text-3xl font-bold text-[#090D1D]">
                   Studio Legale Agovino Monteforte
                 </span>
                 <div className="flex items-center justify-center mt-1">
                   <div className="w-10 md:w-20 border-t-2 border-[#2D4496]"></div>
-                  <span className="mx-3 text-lg md:text-lg text-[#2D4496]">
+                  <span className="mx-3 md:text-3xl text-[#2D4496]">
                     Avvocati di Fiducia
                   </span>
                   <div className="w-10 md:w-20 border-t-2 border-[#2D4496]"></div>
