@@ -95,11 +95,11 @@ const Footer = () => {
                 <img src="/images/italia.png" alt="Italian Flag" className="h-6 w-6 mr-2" />
                 <h1 className="pb-5 text-xl">Studio Legale Agovino Monteforte Privacy Policy</h1>
                 <p className="pb-5 text-sm">
-                  Ai sensi dell’art. 13 del d. lgs. n. 196 del 30 giugno 2003, la presente informativa descrive le modalità con cui lo Studio Legale Agovino Monteforte tratta i dati personali degli utenti in relazione all’utilizzo del sito <a href="http://www.studiolegaleagovinomonteforte.com">www.studiolegaleagovinomonteforte.com</a>.
+                  Ai sensi dell&apos;art. 13 del d. lgs. n. 196 del 30 giugno 2003, la presente informativa descrive le modalità con cui lo Studio Legale Agovino Monteforte tratta i dati personali degli utenti in relazione all&apos;utilizzo del sito <a href="http://www.studiolegaleagovinomonteforte.com">www.studiolegaleagovinomonteforte.com</a>.
                 </p>
                 <h2 className="pb-5 text-sm">Titolare del trattamento</h2>
                 <p className="pb-5 text-sm">
-                  Il titolare del trattamento dei dati personali relativi al Sito è l’Avv. Maura Monteforte.
+                  Il titolare del trattamento dei dati personali relativi al Sito è l&apos;Avv. Maura Monteforte.
                 </p>
                 <h2 className="pb-5 text-sm">Categorie, natura e finalità dei dati trattati</h2>
                 <p className="pb-5 text-sm">
@@ -107,14 +107,14 @@ const Footer = () => {
                 </p>
                 <h3 className="pb-5 text-sm">Dati di navigazione</h3>
                 <p className="pb-5 text-sm">
-                  Si tratta di dati di navigazione che i sistemi informatici acquisiscono automaticamente durante l’utilizzo del Sito, quale l’indirizzo IP, gli indirizzi in notazione URI (Uniform Resource Identifier), nonchè i dettagli delle richieste inviate al server del Sito, e che ne rendono possibile la navigazione. I dati di navigazione potranno altresì essere utilizzati per compilare statistiche anonime che permettono di comprendere l’utilizzo del Sito e di migliorare la struttura dello stesso.
+                  Si tratta di dati di navigazione che i sistemi informatici acquisiscono automaticamente durante l&apos;utilizzo del Sito, quale l&apos;indirizzo IP, gli indirizzi in notazione URI (Uniform Resource Identifier), nonchè i dettagli delle richieste inviate al server del Sito, e che ne rendono possibile la navigazione. I dati di navigazione potranno altresì essere utilizzati per compilare statistiche anonime che permettono di comprendere l&apos;utilizzo del Sito e di migliorare la struttura dello stesso.
                 </p>
                 <p className="pb-5 text-sm">
-                  Infine, i dati di navigazione potranno eventualmente essere utilizzati per l’accertamento di attività illecite, come in casi di reati informatici, a danno del Sito.
+                  Infine, i dati di navigazione potranno eventualmente essere utilizzati per l&apos;accertamento di attività illecite, come in casi di reati informatici, a danno del Sito.
                 </p>
-                <h3 className="pb-5 text-sm">Dati forniti dall’utente</h3>
+                <h3 className="pb-5 text-sm">Dati forniti dall&apos;utente</h3>
                 <p className="pb-5 text-sm">
-                  L’eventuale invio di comunicazioni ai contatti indicati sul Sito comporta l’acquisizione dell’indirizzo e-mail e degli ulteriori dati personali contenuti nella comunicazione.
+                  L&apos;eventuale invio di comunicazioni ai contatti indicati sul Sito comporta l&apos;acquisizione dell&apos;indirizzo e-mail e degli ulteriori dati personali contenuti nella comunicazione.
                 </p>
               </div>
 
@@ -224,11 +224,11 @@ const Footer = () => {
                   <h1 className="text-xl">Studio Legale Agovino Monteforte Cookie Policy</h1>
                 </div>
                 <p className="pb-5 text-sm">
-                  Il Sito potrà utilizzare alcune tipologie di cookie. In particolare, il Sito utilizza cookie di sessione, la cui funzione è limitata alla trasmissione di dati identificativi di sessione necessari ai fini di garantire una navigazione efficiente. Altre tipologie di cookie, o tecnologie analoghe, potranno essere di volta in volta impiegate per consentire l’uso del Sito o di specifiche funzionalità. Possono essere utilizzati alcuni cookie persistenti al fine di tracciare la lingua utilizzata dal sistema informatico dell’utente, che potranno comunque essere disattivati in ogni momento. Non sono invece impiegati cookie per l’acquisizione e la trasmissione di dati identificativi personali degli utenti né tracking cookie. Per i dati di sessione e per i dati strettamente necessari al funzionamento del Sito, il conferimento è necessario e non richiede il consenso degli utenti. Il mancato conferimento di questi dati potrà eventualmente comportare l’impossibilità di navigare sul Sito. Per ulteriori informazioni sulla disattivazione e il settaggio dei cookie, gli utenti possono consultare la sezione “Help” del proprio browser o seguire le procedure appositamente previste da quest’ultimo.
+                  Il Sito potrà utilizzare alcune tipologie di cookie. In particolare, il Sito utilizza cookie di sessione, la cui funzione è limitata alla trasmissione di dati identificativi di sessione necessari ai fini di garantire una navigazione efficiente. Altre tipologie di cookie, o tecnologie analoghe, potranno essere di volta in volta impiegate per consentire l&apos;uso del Sito o di specifiche funzionalità. Possono essere utilizzati alcuni cookie persistenti al fine di tracciare la lingua utilizzata dal sistema informatico dell&apos;utente, che potranno comunque essere disattivati in ogni momento. Non sono invece impiegati cookie per l&apos;acquisizione e la trasmissione di dati identificativi personali degli utenti né tracking cookie. Per i dati di sessione e per i dati strettamente necessari al funzionamento del Sito, il conferimento è necessario e non richiede il consenso degli utenti. Il mancato conferimento di questi dati potrà eventualmente comportare l&apos;impossibilità di navigare sul Sito. Per ulteriori informazioni sulla disattivazione e il settaggio dei cookie, gli utenti possono consultare la sezione “Help” del proprio browser o seguire le procedure appositamente previste da quest&apos;ultimo.
                 </p>
                 <h2 className="pb-5 text-sm">Natura facoltativa del conferimento dei dati</h2>
                 <p className="pb-5 text-sm">
-                  Fermo restando quanto indicato in relazione ai dati di navigazione e ai cookie, gli utenti sono liberi di fornire dati personali con lo Studio Legale. Il loro mancato conferimento può comportare l’impossibilità di ricevere risposte.
+                  Fermo restando quanto indicato in relazione ai dati di navigazione e ai cookie, gli utenti sono liberi di fornire dati personali con lo Studio Legale. Il loro mancato conferimento può comportare l&apos;impossibilità di ricevere risposte.
                 </p>
                 <h2 className="pb-5 text-sm">Modalità del trattamento</h2>
                 <p className="pb-5 text-sm">
@@ -242,30 +242,30 @@ const Footer = () => {
                 <p className="pb-5 text-sm">
                   I dati personali non sono soggetti a diffusione.
                 </p>
-                <h2 className="pb-5 text-sm">Diritti dell’interessato</h2>
+                <h2 className="pb-5 text-sm">Diritti dell&apos;interessato</h2>
                 <p className="pb-5 text-sm">
-                  La legge conferisce agli interessati l’esercizio di specifici diritti.
-                  In particolare, in ogni momento, l’interessato può ottenere:
+                  La legge conferisce agli interessati l&apos;esercizio di specifici diritti.
+                  In particolare, in ogni momento, l&apos;interessato può ottenere:
                 </p>
                 <ul className="list-disc list-inside pb-5 text-sm">
                   <li>
-                    la conferma dell’esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile;
+                    la conferma dell&apos;esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile;
                   </li>
                   <li>
-                    l’indicazione dell’origine dei dati personali, delle finalità e modalità del trattamento nonché della logica applicata in caso di trattamento effettuato con l’ausilio di strumenti elettronici;
+                    l&apos;indicazione dell&apos;origine dei dati personali, delle finalità e modalità del trattamento nonché della logica applicata in caso di trattamento effettuato con l&apos;ausilio di strumenti elettronici;
                   </li>
                   <li>
-                    l’indicazione degli estremi identificativi del titolare e dei responsabili nonché dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza;
+                    l&apos;indicazione degli estremi identificativi del titolare e dei responsabili nonché dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza;
                   </li>
                   <li>
-                    l’aggiornamento, la rettificazione, l’integrazione dei dati, nonché la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;
+                    l&apos;aggiornamento, la rettificazione, l&apos;integrazione dei dati, nonché la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;
                   </li>
                   <li>
-                    l’attestazione che le operazioni di cui alla lettera d) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato.
+                    l&apos;attestazione che le operazioni di cui alla lettera d) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato.
                   </li>
                 </ul>
                 <p className="pb-5 text-sm">
-                  L’interessato, ai sensi dell’art. 7 del Codice Privacy, ha diritto altresì di opporsi, per motivi legittimi, al trattamento dei dati personali, anche se pertinenti allo scopo della raccolta, nonché al trattamento di dati personali a fini di invio di comunicazioni promozionali per il compimento di ricerche di mercato. Tutti questi diritti possono essere esercitati scrivendo alla mail dello Studio legale.
+                  L&apos;interessato, ai sensi dell&apos;art. 7 del Codice Privacy, ha diritto altresì di opporsi, per motivi legittimi, al trattamento dei dati personali, anche se pertinenti allo scopo della raccolta, nonché al trattamento di dati personali a fini di invio di comunicazioni promozionali per il compimento di ricerche di mercato. Tutti questi diritti possono essere esercitati scrivendo alla mail dello Studio legale.
                   La presente Privacy Policy potrà essere soggetta a periodici aggiornamenti.
                 </p>
 
