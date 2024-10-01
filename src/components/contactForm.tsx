@@ -56,6 +56,20 @@ const ContactForm: React.FC = () => {
               </select>
             </div>
 
+            {/* Checkbox for consent */}
+            <div className="flex items-center">
+              <input
+                type="checkbox"
+                id="consent"
+                name="consent"
+                required
+                className="mr-2"
+              />
+              <label htmlFor="consent" className="text-gray-700">
+                Ai sensi e per gli effetti degli articoli 7,13 e 23 del D. L. N.196/2003, dichiaro di aver preso visione dell&apos;informativa di Studio Legale Agovino Monteforte per il trattamento dei dati personali.
+              </label>
+            </div>
+
             <button
               type="submit"
               className="w-full bg-gray-900 text-white py-3 flex justify-center items-center gap-2"

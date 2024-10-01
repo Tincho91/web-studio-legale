@@ -27,41 +27,33 @@ const Footer = () => {
     <footer className="bg-[#090D1D] text-white pt-8 pb-5">
       <div className="mx-auto px-4">
         {/* Footer Content */}
-        <div className="flex flex-wrap justify-between">
-          {/* Additional Information */}
-          <div className="flex flex-col sm:flex-row justify-between items-right mt-5 w-full">
-            {/* Address and Contact */}
-            <div className="flex flex-col justify-start items-start text-left sm:w-1/2">
-              <p className="font-bold">Sede di Cosenza</p>
-              <p className="font-bold">87100 - Piazza Gullo, 5</p>
-              <p className="font-bold">Email: infosegreteria@studiolegale.com</p>
-            </div>
+        <div className="flex flex-col sm:flex-row sm:justify-between w-full">
+          {/* Address and Contact */}
+          <div className="flex flex-col justify-start items-start text-left sm:w-1/2 mb-5 sm:mb-0">
+            <p className="font-bold">Sede di Cosenza</p>
+            <p className="font-bold">87100 - Piazza Gullo, 5</p>
+            <p className="font-bold">Email: studiolegaleagovinomonteforte@gmail.com </p>
+          </div>
 
+          {/* Policy Links and Social Links */}
+          <div className="flex flex-col justify-start sm:justify-end items-end sm:w-1/2">
             {/* Privacy and Cookie Policy Links */}
-            <div className="flex flex-col justify-end items-end sm:items-end sm:w-1/2 mt-5 sm:mt-0 text-left">
+            <div className="flex items-center">
               <a href="#" className="text-blue-400" onClick={openPrivacyModal}>
                 Privacy Policy
               </a>
-              <a
-                href="#"
-                className="text-blue-400 mt-2 sm:mt-0 sm:ml-4"
-                onClick={openCookiesModal}
-              >
+              <span className="mx-2 text-gray-400">/</span>
+              <a href="#" className="text-blue-400" onClick={openCookiesModal}>
                 Cookie Policy
               </a>
             </div>
-          </div>
 
-          {/* Social Links */}
-          <div className="flex justify-between w-full items-center mt-10">
-            <div className="flex items-center gap-5 ml-auto">
+            {/* Social Links */}
+            <div className="flex items-center gap-5 mt-5 sm:mt-3">
               <a href="mailto:example@example.com" className="text-white">
                 <FaEnvelope size="2em" />
               </a>
-              <a
-                href="https://api.whatsapp.com/send?phone=PHONE_NUMBER"
-                className="text-white"
-              >
+              <a href="https://api.whatsapp.com/send?phone=PHONE_NUMBER" className="text-white">
                 <FaWhatsapp size="2em" />
               </a>
               <a href="https://www.linkedin.com/" className="text-white">
@@ -69,13 +61,13 @@ const Footer = () => {
               </a>
             </div>
           </div>
+        </div>
 
-          {/* Footer Branding */}
-          <div className="w-full text-center mt-5 text-sm">
-            <p>
-              Designed by <span className="italic font-bold">Neomedi Analytica Srls</span>
-            </p>
-          </div>
+        {/* Footer Branding */}
+        <div className="w-full text-center mt-10 text-sm">
+          <p>
+            Designed by <span className="italic font-bold">Neomedi Analytica Srls</span>
+          </p>
         </div>
       </div>
 
@@ -210,7 +202,7 @@ const Footer = () => {
       {isCookiesOpen && (
         <div className="fixed inset-0 z-50 overflow-y-auto bg-gray-900 bg-opacity-75 flex justify-center items-center">
           <div className="relative bg-white p-4 md:p-8 max-w-3xl w-full">
-          <button
+            <button
               className="absolute top-[4%] left-[0.4%] text-gray-600 hover:text-gray-800 border border-black py-1 px-2"
               onClick={closeCookiesModal}
             >
@@ -321,7 +313,7 @@ const Footer = () => {
 
                 {/* Traducción al español */}
                 <div className="pb-5">
-                <img src="/images/espana.png" alt="Bandera España" className="h-6 w-6 mr-2" />
+                  <img src="/images/espana.png" alt="Bandera España" className="h-6 w-6 mr-2" />
                   <h1 className="pb-5 text-xl">Studio Legale Agovino Monteforte Política de Cookies</h1>
                   <p className="pb-5 text-sm">
                     El Sitio puede utilizar ciertos tipos de cookies. En particular, el Sitio utiliza cookies de sesión, cuya función se limita a la transmisión de datos de identificación de sesión necesarios para garantizar una navegación eficiente. De vez en cuando, se pueden utilizar otros tipos de cookies, o tecnologías similares, para permitir el uso del Sitio o de características específicas. Se pueden utilizar algunas cookies persistentes para rastrear el idioma utilizado por el sistema informático del usuario, las cuales se pueden desactivar en cualquier momento. No se utilizan cookies para la adquisición y transmisión de datos de identificación personal de los usuarios ni cookies de seguimiento. Para los datos de sesión y los datos estrictamente necesarios para el funcionamiento del Sitio, el suministro es necesario y no requiere el consentimiento de los usuarios. La falta de suministro de estos datos puede hacer que sea imposible navegar por el Sitio. Para obtener más información sobre la desactivación y configuración de cookies, los usuarios pueden consultar la sección &quot;Ayuda&quot; de su navegador o seguir los procedimientos previstos por el navegador.
@@ -371,7 +363,7 @@ const Footer = () => {
 
                 {/* Traducción al francés */}
                 <div className="pb-5">
-                <img src="/images/portugal.png" alt="Bandera Portugal" className="h-6 w-6 mr-2" />
+                  <img src="/images/portugal.png" alt="Bandera Portugal" className="h-6 w-6 mr-2" />
                   <h1 className="pb-5 text-xl">Studio Legale Agovino Monteforte Política de Cookies</h1>
                   <p className="pb-5 text-sm">
                     O Site pode usar certos tipos de cookies. Em particular, o Site usa cookies de sessão, cuja função se limita à transmissão de dados de identificação de sessão necessários para garantir uma navegação eficiente. Outros tipos de cookies, ou tecnologias semelhantes, podem ser usados de tempos em tempos para permitir o uso do Site ou de funcionalidades específicas. Alguns cookies persistentes podem ser usados para rastrear o idioma usado pelo sistema do usuário, que podem ser desativados a qualquer momento. Os cookies não são usados para a aquisição e transmissão de dados de identificação pessoal dos usuários nem para cookies de rastreamento. Para dados de sessão e dados estritamente necessários para o funcionamento do Site, o fornecimento é necessário e não requer o consentimento dos usuários. A falta de fornecimento desses dados pode tornar impossível a navegação no Site. Para mais informações sobre a desativação e configuração de cookies, os usuários podem consultar a seção &quot;Ajuda&quot; do navegador ou seguir os procedimentos previstos pelo navegador.
