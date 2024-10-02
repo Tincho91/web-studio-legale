@@ -1,17 +1,16 @@
-import { AiOutlineSend } from 'react-icons/ai';
-import { useTranslations } from 'next-intl';
-
 import WhatsAppButton from '@/components/ui/whatsAppButton';
+import { useTranslations } from 'next-intl';
+import SendButton from './ui/sendButton';
 
-const ContactForm: React.FC = () => {
+const ContactForm = () => {
   const t = useTranslations('ContactForm');
 
   return (
-    <div className="bg-[#ECF0FF]" id='contatti'>
+    <div className="bg-[#ECF0FF]" id="contatti">
       <div className="max-w-screen-xl mx-auto px-8 py-12">
         <h1 className="text-black text-center text-4xl md:text-5xl font-bold pb-5">{t('title')}</h1>
         <div className="bg-white p-10 border-2 border-gray-900">
-          <form method="POST" action="/api/submit-form" className="space-y-4">
+          <form id="contactForm" className="space-y-4">
             <div className="form-group">
               <input
                 type="text"
@@ -70,16 +69,11 @@ const ContactForm: React.FC = () => {
               </label>
             </div>
 
-            <button
-              type="submit"
-              className="w-full bg-gray-900 text-white py-3 flex justify-center items-center gap-2"
-            >
-              <AiOutlineSend />
-              <span>{t('buttonText')}</span>
-            </button>
-
-            <WhatsAppButton />
+            <SendButton />
           </form>
+          <div className='mt-5'>
+            <WhatsAppButton />
+          </div>
         </div>
       </div>
     </div>

@@ -50,13 +50,13 @@ const Footer = () => {
 
             {/* Social Links */}
             <div className="flex items-center gap-5 mt-5 sm:mt-3">
-              <a href="mailto:example@example.com" className="text-white">
+              <a href="mailto:studiolegaleagovinomonteforte@gmail.com" target="_blank" className="text-white">
                 <FaEnvelope size="2em" />
               </a>
-              <a href="https://api.whatsapp.com/send?phone=PHONE_NUMBER" className="text-white">
+              <a href="https://api.whatsapp.com/send?phone=393355388666" target="_blank" className="text-white">
                 <FaWhatsapp size="2em" />
               </a>
-              <a href="https://www.linkedin.com/" className="text-white">
+              <a href="https://www.linkedin.com/" target="_blank" className="text-white">
                 <FaLinkedin size="2em" />
               </a>
             </div>

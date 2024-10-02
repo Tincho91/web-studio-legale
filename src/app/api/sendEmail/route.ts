@@ -1,10 +1,14 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
-// This is the new way of handling POST requests in the Next.js app directory
 export async function POST(req: Request) {
   try {
-    const { nomeCompleto, indirizzoEmail, telefono, tipoServizio, consent } = await req.json();
+    const formData = await req.formData();
+    const nomeCompleto = formData.get('nomeCompleto')?.toString() || '';
+    const indirizzoEmail = formData.get('indirizzoEmail')?.toString() || '';
+    const telefono = formData.get('telefono')?.toString() || '';
+    const tipoServizio = formData.get('tipoServizio')?.toString() || '';
+    const consent = formData.get('consent')?.toString() || '';
 
     // Validate form data
     const errors: { [key: string]: string } = {};
@@ -31,7 +35,7 @@ export async function POST(req: Request) {
     // Define the email content
     const mailOptions = {
       from: process.env.SMTP_EMAIL,
-      to: process.env.SMTP_EMAIL, // or another recipient
+      to: process.env.SMTP_EMAIL,
       subject: 'Nuovo Contatto dal Form',
       html: `
         <h3>Nuovo contatto da ${nomeCompleto}</h3>
