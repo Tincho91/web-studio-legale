@@ -41,14 +41,16 @@ const Navbar = () => {
         {/* Iconos Email y WhatsApp alineados a la derecha */}
         <div className="hidden md:flex items-center gap-5">
           <a
-            href="mailto:example@example.com"
+            href="mailto:studiolegaleagovinomonteforte@gmail.com" 
+            target="_blank"
             className="bg-[#2D4496] text-white rounded-full p-4 flex items-center justify-center"
             aria-label="Email"
           >
             <FaEnvelope className="text-3xl" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=PHONE_NUMBER"
+            href="https://api.whatsapp.com/send?phone=393355388666" 
+            target="_blank"
             className="bg-[#25D366] text-white rounded-full p-4 flex items-center justify-center"
             aria-label="Whatsapp"
           >
