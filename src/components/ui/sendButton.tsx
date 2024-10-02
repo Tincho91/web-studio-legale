@@ -11,7 +11,6 @@ const SendButton = () => {
   const cooldownTime = 300000;
 
   useEffect(() => {
-
     const lastSubmitTime = localStorage.getItem('lastSubmitTime');
     if (lastSubmitTime) {
       const timePassed = Date.now() - parseInt(lastSubmitTime, 10);
@@ -19,24 +18,23 @@ const SendButton = () => {
         setCooldown(true);
         const remainingTime = cooldownTime - timePassed;
 
-        Swal.fire({
-          icon: 'warning',
-          title: 'Attenzione!',
-          text: `Devi aspettare ${Math.round(remainingTime / 60000)} minuti prima di inviare di nuovo.`,
-        });
-
         setTimeout(() => setCooldown(false), remainingTime);
       }
     }
   }, []);
 
   const handleSubmit = async () => {
+    if (isSubmitting) return;
 
-    if (isSubmitting || cooldown) {
+    if (cooldown) {
+      const remainingTime = cooldownTime - (Date.now() - parseInt(localStorage.getItem('lastSubmitTime') || '0', 10));
+      const minutes = Math.floor(remainingTime / 60000);
+      const seconds = Math.floor((remainingTime % 60000) / 1000);
+
       Swal.fire({
         icon: 'warning',
         title: 'Attenzione!',
-        text: 'Non puoi inviare il form ora. Devi aspettare che il cooldown finisca.',
+        text: `Devi aspettare ${minutes} minuti e ${seconds} secondi prima di inviare di nuovo.`,
       });
       return;
     }
@@ -54,8 +52,6 @@ const SendButton = () => {
 
       if (response.ok) {
         form.reset();
-
-
         localStorage.setItem('lastSubmitTime', Date.now().toString());
         setCooldown(true);
 
@@ -65,7 +61,7 @@ const SendButton = () => {
           text: 'La tua email è stata inviata con successo.',
         });
 
-
+        
         setTimeout(() => setCooldown(false), cooldownTime);
       } else {
         const errorData = await response.json();
@@ -95,7 +91,7 @@ const SendButton = () => {
         type="button"
         onClick={handleSubmit}
         className="w-full bg-gray-900 text-white py-3 flex justify-center items-center gap-2"
-        disabled={isSubmitting || cooldown}
+        disabled={isSubmitting}
       >
         <AiOutlineSend />
         <span>{isSubmitting ? 'Invio in corso...' : 'Invia'}</span>
