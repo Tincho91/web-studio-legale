@@ -73,9 +73,9 @@ const Footer = () => {
                   Studio Legale Agovino Monteforte Politica sulla privacy e sui Cookie
                 </h1>
                 <p className="pb-5 text-sm">
-                  Ai sensi dell’art. 13 del d. lgs. n. 196 del 30 giugno 2003, la presente
+                  Ai sensi dell&apos;art. 13 del d. lgs. n. 196 del 30 giugno 2003, la presente
                   informativa descrive le modalità con cui lo Studio Legale Agovino Monteforte
-                  tratta i dati personali degli utenti in relazione all’utilizzo del sito{' '}
+                  tratta i dati personali degli utenti in relazione all&apos;utilizzo del sito{' '}
                   <a href="http://www.studiolegaleagovinomonteforte.com">
                     www.studiolegaleagovinomonteforte.com
                   </a>
@@ -83,7 +83,7 @@ const Footer = () => {
                 </p>
                 <h2 className="pb-5 text-sm">Titolare del trattamento</h2>
                 <p className="pb-5 text-sm">
-                  Il titolare del trattamento dei dati personali relativi al Sito è l’Avv.
+                  Il titolare del trattamento dei dati personali relativi al Sito è l&apos;Avv.
                   Maura Monteforte.
                 </p>
                 <h2 className="pb-5 text-sm">Categorie, natura e finalità dei dati trattati</h2>
@@ -94,22 +94,22 @@ const Footer = () => {
                 <h3 className="pb-5 text-sm">Dati di navigazione</h3>
                 <p className="pb-5 text-sm">
                   Si tratta di dati di navigazione che i sistemi informatici acquisiscono
-                  automaticamente durante l’utilizzo del Sito, quale l’indirizzo IP, gli
+                  automaticamente durante l&apos;utilizzo del Sito, quale l&apos;indirizzo IP, gli
                   indirizzi in notazione URI (Uniform Resource Identifier), nonché i dettagli
                   delle richieste inviate al server del Sito, e che ne rendono possibile la
                   navigazione. I dati di navigazione potranno altresì essere utilizzati per
-                  compilare statistiche anonime che permettono di comprendere l’utilizzo del
+                  compilare statistiche anonime che permettono di comprendere l&apos;utilizzo del
                   Sito e di migliorare la struttura dello stesso.
                 </p>
                 <p className="pb-5 text-sm">
                   Infine, i dati di navigazione potranno eventualmente essere utilizzati per
-                  l’accertamento di attività illecite, come in casi di reati informatici, a
+                  l&apos;accertamento di attività illecite, come in casi di reati informatici, a
                   danno del Sito.
                 </p>
-                <h3 className="pb-5 text-sm">Dati forniti dall’utente</h3>
+                <h3 className="pb-5 text-sm">Dati forniti dall&apos;utente</h3>
                 <p className="pb-5 text-sm">
-                  L’eventuale invio di comunicazioni ai contatti indicati sul Sito comporta
-                  l’acquisizione dell’indirizzo e-mail e degli ulteriori dati personali
+                  L&apos;eventuale invio di comunicazioni ai contatti indicati sul Sito comporta
+                  l&apos;acquisizione dell&apos;indirizzo e-mail e degli ulteriori dati personali
                   contenuti nella comunicazione.
                 </p>
                 <h3 className="pb-5 text-sm">Cookie</h3>
@@ -118,25 +118,25 @@ const Footer = () => {
                   utilizza cookie di sessione, la cui funzione è limitata alla trasmissione di
                   dati identificativi di sessione necessari ai fini di garantire una
                   navigazione efficiente. Altre tipologie di cookie, o tecnologie analoghe,
-                  potranno essere di volta in volta impiegate per consentire l’uso del Sito o
+                  potranno essere di volta in volta impiegate per consentire l&apos;uso del Sito o
                   di specifiche funzionalità. Possono essere utilizzati alcuni cookie
                   persistenti al fine di tracciare la lingua utilizzata dal sistema
-                  informatico dell’utente, che potranno comunque essere disattivati in ogni
-                  momento. Non sono invece impiegati cookie per l’acquisizione e la
+                  informatico dell&apos;utente, che potranno comunque essere disattivati in ogni
+                  momento. Non sono invece impiegati cookie per l&apos;acquisizione e la
                   trasmissione di dati identificativi personali degli utenti né tracking
                   cookie. Per i dati di sessione e per i dati strettamente necessari al
                   funzionamento del Sito, il conferimento è necessario e non richiede il
                   consenso degli utenti. Il mancato conferimento di questi dati potrà
-                  eventualmente comportare l’impossibilità di navigare sul Sito. Per ulteriori
+                  eventualmente comportare l&apos;impossibilità di navigare sul Sito. Per ulteriori
                   informazioni sulla disattivazione e il settaggio dei cookie, gli utenti
-                  possono consultare la sezione “Help” del proprio browser o seguire le
-                  procedure appositamente previste da quest’ultimo.
+                  possono consultare la sezione &quot;Help&quot; del proprio browser o seguire le
+                  procedure appositamente previste da quest&apos;ultimo.
                 </p>
                 <h2 className="pb-5 text-sm">Natura facoltativa del conferimento dei dati</h2>
                 <p className="pb-5 text-sm">
                   Fermo restando quanto indicato in relazione ai dati di navigazione e ai
                   cookie, gli utenti sono liberi di fornire dati personali con lo Studio
-                  Legale. Il loro mancato conferimento può comportare l’impossibilità di
+                  Legale. Il loro mancato conferimento può comportare l&apos;impossibilità di
                   ricevere risposte.
                 </p>
                 <h2 className="pb-5 text-sm">Modalità del trattamento</h2>
@@ -157,36 +157,36 @@ const Footer = () => {
                 </p>
                 <h2 className="pb-5 text-sm">Diffusione dei dati</h2>
                 <p className="pb-5 text-sm">I dati personali non sono soggetti a diffusione.</p>
-                <h2 className="pb-5 text-sm">Diritti dell’interessato</h2>
+                <h2 className="pb-5 text-sm">Diritti dell&apos;interessato</h2>
                 <p className="pb-5 text-sm">
-                  La legge conferisce agli interessati l’esercizio di specifici diritti. In
-                  particolare, in ogni momento, l’interessato può ottenere:
+                  La legge conferisce agli interessati l&apos;esercizio di specifici diritti. In
+                  particolare, in ogni momento, l&apos;interessato può ottenere:
                 </p>
                 <ul className="list-disc list-inside pb-5 text-sm">
                   <li>
-                    la conferma dell’esistenza o meno di dati personali che lo riguardano,
+                    la conferma dell&apos;esistenza o meno di dati personali che lo riguardano,
                     anche se non ancora registrati, e la loro comunicazione in forma
                     intelligibile;
                   </li>
                   <li>
-                    l’indicazione dell’origine dei dati personali, delle finalità e modalità
+                    l&apos;indicazione dell&apos;origine dei dati personali, delle finalità e modalità
                     del trattamento nonché della logica applicata in caso di trattamento
-                    effettuato con l’ausilio di strumenti elettronici;
+                    effettuato con l&apos;ausilio di strumenti elettronici;
                   </li>
                   <li>
-                    l’indicazione degli estremi identificativi del titolare e dei responsabili
+                    l&apos;indicazione degli estremi identificativi del titolare e dei responsabili
                     nonché dei soggetti o delle categorie di soggetti ai quali i dati
                     personali possono essere comunicati o che possono venirne a conoscenza;
                   </li>
                   <li>
-                    l’aggiornamento, la rettificazione, l’integrazione dei dati, nonché la
+                    l&apos;aggiornamento, la rettificazione, l&apos;integrazione dei dati, nonché la
                     cancellazione, la trasformazione in forma anonima o il blocco dei dati
                     trattati in violazione di legge, compresi quelli di cui non è necessaria
                     la conservazione in relazione agli scopi per i quali i dati sono stati
                     raccolti o successivamente trattati;
                   </li>
                   <li>
-                    l’attestazione che le operazioni di cui alla lettera d) sono state portate
+                    l&apos;attestazione che le operazioni di cui alla lettera d) sono state portate
                     a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai
                     quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui
                     tale adempimento si rivela impossibile o comporta un impiego di mezzi
@@ -194,7 +194,7 @@ const Footer = () => {
                   </li>
                 </ul>
                 <p className="pb-5 text-sm">
-                  L’interessato, ai sensi dell’art. 7 del Codice Privacy, ha diritto altresì
+                  L&apos;interessato, ai sensi dell&apos;art. 7 del Codice Privacy, ha diritto altresì
                   di opporsi, per motivi legittimi, al trattamento dei dati personali, anche
                   se pertinenti allo scopo della raccolta, nonché al trattamento di dati
                   personali a fini di invio di comunicazioni promozionali per il compimento di
@@ -232,7 +232,7 @@ const Footer = () => {
                 </p>
                 <h3 className="pb-5 text-sm">Cookies</h3>
                 <p className="pb-5 text-sm">
-                  El Sitio podrá utilizar algunos tipos de cookies. En particular, el Sitio utiliza cookies de sesión, cuya función se limita a la transmisión de datos de identificación de sesión necesarios para garantizar una navegación eficiente. Otros tipos de cookies, o tecnologías similares, se podrán utilizar de vez en cuando para permitir el uso del Sitio o de funcionalidades específicas. Algunos cookies persistentes pueden utilizarse para rastrear el idioma utilizado por el sistema informático del usuario, los cuales se podrán desactivar en cualquier momento. No se utilizan cookies para la adquisición y transmisión de datos de identificación personal de los usuarios ni cookies de seguimiento. Para los datos de sesión y los datos estrictamente necesarios para el funcionamiento del Sitio, su suministro es necesario y no requiere el consentimiento de los usuarios. La falta de suministro de estos datos podría implicar la imposibilidad de navegar por el Sitio. Para más información sobre la desactivación y configuración de cookies, los usuarios pueden consultar la sección "Ayuda" de su navegador o seguir los procedimientos específicos previstos por este.
+                  El Sitio podrá utilizar algunos tipos de cookies. En particular, el Sitio utiliza cookies de sesión, cuya función se limita a la transmisión de datos de identificación de sesión necesarios para garantizar una navegación eficiente. Otros tipos de cookies, o tecnologías similares, se podrán utilizar de vez en cuando para permitir el uso del Sitio o de funcionalidades específicas. Algunos cookies persistentes pueden utilizarse para rastrear el idioma utilizado por el sistema informático del usuario, los cuales se podrán desactivar en cualquier momento. No se utilizan cookies para la adquisición y transmisión de datos de identificación personal de los usuarios ni cookies de seguimiento. Para los datos de sesión y los datos estrictamente necesarios para el funcionamiento del Sitio, su suministro es necesario y no requiere el consentimiento de los usuarios. La falta de suministro de estos datos podría implicar la imposibilidad de navegar por el Sitio. Para más información sobre la desactivación y configuración de cookies, los usuarios pueden consultar la sección &quot;Ayuda&quot; de su navegador o seguir los procedimientos específicos previstos por este.
                 </p>
                 <h2 className="pb-5 text-sm">Naturaleza opcional del suministro de datos</h2>
                 <p className="pb-5 text-sm">
@@ -296,7 +296,7 @@ const Footer = () => {
                 </p>
                 <h3 className="pb-5 text-sm">Cookies</h3>
                 <p className="pb-5 text-sm">
-                  O Site pode utilizar alguns tipos de cookies. Em particular, o Site usa cookies de sessão, cuja função se limita à transmissão de dados de identificação de sessão necessários para garantir uma navegação eficiente. Outros tipos de cookies, ou tecnologias semelhantes, podem ser usados ocasionalmente para permitir o uso do Site ou de funcionalidades específicas. Alguns cookies persistentes podem ser usados para rastrear o idioma utilizado pelo sistema informático do usuário, e estes podem ser desativados a qualquer momento. Não são utilizados cookies para aquisição e transmissão de dados pessoais dos usuários nem cookies de rastreamento. Para dados de sessão e dados estritamente necessários para o funcionamento do Site, seu fornecimento é necessário e não requer o consentimento dos usuários. A falta de fornecimento desses dados pode impedir a navegação no Site. Para mais informações sobre a desativação e configuração de cookies, os usuários podem consultar a seção "Ajuda" do seu navegador ou seguir os procedimentos específicos previstos por ele.
+                  O Site pode utilizar alguns tipos de cookies. Em particular, o Site usa cookies de sessão, cuja função se limita à transmissão de dados de identificação de sessão necessários para garantir uma navegação eficiente. Outros tipos de cookies, ou tecnologias semelhantes, podem ser usados ocasionalmente para permitir o uso do Site ou de funcionalidades específicas. Alguns cookies persistentes podem ser usados para rastrear o idioma utilizado pelo sistema informático do usuário, e estes podem ser desativados a qualquer momento. Não são utilizados cookies para aquisição e transmissão de dados pessoais dos usuários nem cookies de rastreamento. Para dados de sessão e dados estritamente necessários para o funcionamento do Site, seu fornecimento é necessário e não requer o consentimento dos usuários. A falta de fornecimento desses dados pode impedir a navegação no Site. Para mais informações sobre a desativação e configuração de cookies, os usuários podem consultar a seção &quot;Ajuda&quot; do seu navegador ou seguir os procedimentos específicos previstos por ele.
                 </p>
                 <h2 className="pb-5 text-sm">Natureza opcional do fornecimento de dados</h2>
                 <p className="pb-5 text-sm">
@@ -337,7 +337,7 @@ const Footer = () => {
                 <img src="/images/estados-unidos.png" alt="Bandera United States" className="h-6 w-6 mr-2" />
                 <h1 className="pb-5 text-xl">Studio Legale Agovino Monteforte Privacy Policy</h1>
                 <p className="pb-5 text-sm">
-                  Pursuant to Article 13 of Legislative Decree No. 196 of June 30, 2003, this notice describes how the Agovino Monteforte Law Firm handles users' personal data in relation to the use of the website <a href="http://www.studiolegaleagovinomonteforte.com">www.studiolegaleagovinomonteforte.com</a>.
+                  Pursuant to Article 13 of Legislative Decree No. 196 of June 30, 2003, this notice describes how the Agovino Monteforte Law Firm handles users{' '}personal data in relation to the use of the website <a href="http://www.studiolegaleagovinomonteforte.com">www.studiolegaleagovinomonteforte.com</a>.
                 </p>
                 <h2 className="pb-5 text-sm">Data Controller</h2>
                 <p className="pb-5 text-sm">
@@ -356,11 +356,11 @@ const Footer = () => {
                 </p>
                 <h3 className="pb-5 text-sm">Data Provided by Users</h3>
                 <p className="pb-5 text-sm">
-                  Any communications sent to the contacts listed on the website result in the acquisition of the sender's email address and any other personal data contained in the communication.
+                  Any communications sent to the contacts listed on the website result in the acquisition of the sender{' '} email address and any other personal data contained in the communication.
                 </p>
                 <h3 className="pb-5 text-sm">Cookies</h3>
                 <p className="pb-5 text-sm">
-                  The website may use certain types of cookies. Specifically, the website uses session cookies, whose purpose is limited to transmitting session identifiers necessary for efficient navigation. Other types of cookies or similar technologies may occasionally be used to enable the use of the website or specific features. Some persistent cookies may be used to track the language utilized by the user's system, and these can be disabled at any time. No cookies are used for the acquisition and transmission of users' personal data or tracking cookies. For session data and data strictly necessary for the website's operation, providing such data is necessary and does not require user consent. Failure to provide this data may prevent users from navigating the website. For more information on disabling and configuring cookies, users can consult their browser's "Help" section or follow specific procedures provided by their browser.
+                  The website may use certain types of cookies. Specifically, the website uses session cookies, whose purpose is limited to transmitting session identifiers necessary for efficient navigation. Other types of cookies or similar technologies may occasionally be used to enable the use of the website or specific features. Some persistent cookies may be used to track the language utilized by the user{' '} system, and these can be disabled at any time. No cookies are used for the acquisition and transmission of users{' '}personal data or tracking cookies. For session data and data strictly necessary for the website{' '} operation, providing such data is necessary and does not require user consent. Failure to provide this data may prevent users from navigating the website. For more information on disabling and configuring cookies, users can consult their browser{' '} &quot;Help&quot; section or follow specific procedures provided by their browser.
                 </p>
                 <h2 className="pb-5 text-sm">Optional Nature of Data Provision</h2>
                 <p className="pb-5 text-sm">
@@ -390,7 +390,7 @@ const Footer = () => {
                   <li>Certification that the operations mentioned in the previous point have been notified, including their content, to those to whom the data has been communicated or disclosed, except in cases where this proves impossible or involves the use of means clearly disproportionate to the protected right.</li>
                 </ul>
                 <p className="pb-5 text-sm">
-                  The data subject, under Article 7 of the Privacy Code, also has the right to object, for legitimate reasons, to the processing of personal data, even if relevant to the purpose of collection, as well as to the processing of personal data for the purpose of sending promotional communications or for market research purposes. All these rights may be exercised by writing to the Law Firm's email address.
+                  The data subject, under Article 7 of the Privacy Code, also has the right to object, for legitimate reasons, to the processing of personal data, even if relevant to the purpose of collection, as well as to the processing of personal data for the purpose of sending promotional communications or for market research purposes. All these rights may be exercised by writing to the Law Firm{' '} email address.
                   This Privacy Policy may be subject to periodic updates.
                 </p>
               </div>
