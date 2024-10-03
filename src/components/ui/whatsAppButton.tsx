@@ -6,11 +6,12 @@ export default function WhatsAppButton() {
   return (
     <button
       type="button"
-      className="w-full bg-green-500 text-gray-900 py-3 flex justify-center items-center gap-2"
-      onClick={() => window.open('https://wa.me/1234567890', '_blank')}
+      className="w-full bg-green-500 text-gray-900 py-3"
     >
-      <FaWhatsapp />
-      <span>WhatsApp</span>
+      <a href="https://api.whatsapp.com/send?phone=393355388666" target="_blank" className="text-white flex justify-center items-center gap-2">
+        <FaWhatsapp />
+        <span>WhatsApp</span>
+      </a>
     </button>
   );
 }
