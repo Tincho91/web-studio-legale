@@ -105,13 +105,25 @@ const ServiziList: FC = () => {
                   </p>
                 )}
               </FadeInFrom>
-              <a href={index === 0 ? `/${t('locale')}/servizi/cittadinanza` : '#contatti'}>
+              <a
+                href={
+                  index === 0
+                    ? `/${t('locale')}/servizi/cittadinanza`
+                    : index === 1
+                      ? `https://drive.google.com/file/d/1t-s17-5purr2BlqnParDQE5hLA3-kyM1/view`
+                      : '#contatti'
+                }
+                target={index === 1 ? '_blank' : '_self'}
+                rel={index === 1 ? 'noopener noreferrer' : undefined}
+              >
+
                 <div
-                  className={`flex items-center gap-5 justify-center absolute bottom-0 right-0 bg-${index % 2 === 0 ? '[#090D1D]' : 'white'} z-1 py-5 px-5 text-${index % 2 === 0 ? 'white' : 'black'} font-roboto text-16 font-light tracking-[4.8px]`}
+                  className={`flex items-center gap-5 justify-center absolute bottom-0 right-0 bg-${index % 2 === 0 ? '[#090D1D]' : 'white'
+                    } z-1 py-5 px-5 text-${index % 2 === 0 ? 'white' : 'black'} font-roboto text-16 font-light tracking-[4.8px]`}
                 >
                   <BsChatDots className="text-xl" />
                   <span className={`text-${index % 2 === 0 ? 'white' : 'black'}`}>
-                    {index === 0 ? t('viewDetails') : t('requestInfo')}
+                    {index === 0 || index === 1 ? t('viewDetails') : t('requestInfo')}
                   </span>
                 </div>
               </a>
